@@ -3,9 +3,6 @@
   publish = "build/"
 
 [[plugins]]
-  package = "@netlify/plugin-nextjs"
-
-[[plugins]]
   package = "netlify-plugin-inline-source"
 
 [[redirects]]
