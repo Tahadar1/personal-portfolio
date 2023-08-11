@@ -11,19 +11,41 @@ export const Projects = () => {
 
   const projects = [
     {
+      id: 1,
       title: "Music Library",
-      description: "This is the backend for the Music Library Web Application that will store and play music online for free. This Backend RestAPI's are Developed Using Spring Boot Framework",
+      description: (
+        <span>
+          This is the backend for the Music Library Web Application that will store and play music online for free.
+          This Backend RestAPI's are Developed Using Spring Boot Framework.
+          <br></br>
+          <h5>
+            <a href="https://github.com/Tahadar1/MusicLibraryFinal" className="link">
+              Click to open Repository
+            </a>
+          </h5>
+        </span>
+
+      ),
       imgUrl: projImg1,
     },
     {
+      id:2,
       title: "Interactive Coding Learning System",
-      description: "Web Application for Online Learning with a Slight Twist that will help Learn Code faster. This web application is bases on ReactJS for Frontend and Flask Python for Backend",
+      description: "",
+      description: (
+        <span>
+          Web Application for Online Learning with a Slight Twist that will help Learn Code faster.
+          This web application is bases on ReactJS for Frontend and Flask Python for Backend
+          <br></br>
+          <h5>
+            <a href="https://github.com/Tahadar1/Interactive-Coding-Learning-System" className="link">
+              Click to open Repository
+            </a>
+          </h5>
+        </span>
+
+      ),
       imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
     },
   ];
 

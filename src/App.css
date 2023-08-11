@@ -90,6 +90,14 @@ nav.navbar {
   z-index: 9999;
   transition:  0.32s ease-in-out;
 }
+.link{
+  text-decoration: none !important;
+  color: #fff;
+}
+.link:hover{
+  cursor: pointer;
+  color: #fff;
+}
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
