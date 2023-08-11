@@ -44,11 +44,11 @@ export const Skills = () => {
                                 <h5>Python Flask Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="img" />
+                                <img src={meter1} alt="img" />
                                 <h5>Spring Boot Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="img" />
+                                <img src={meter2} alt="img" />
                                 <h5>ReactJS</h5>
                             </div>
                         </Carousel>
